@@ -1,0 +1,31 @@
+#pylint:disable=E0001
+#pylint:disable=E0602
+{
+    "name": "youthon",
+    "description": "User bot for telegram !",
+    "stack": "container",
+    "repository": "https://github.com/youthon1/youthoon",
+    "keywords": [
+        "python",
+        "chatbot",
+        "telegrambot"
+    ],
+    "website": "https://github.com/youthon1/youthoon",
+    "env": {
+        "APP_ID": {
+            "description": "ايبي ايدي",
+            "value": "",
+            "required": true
+        },
+        "APP_HASH": {
+            "description": "ايبي هاش",
+            "value": "",
+            "required": true
+        },
+        "TERMUX": {
+            "description": "كود تيرمكس",
+            "value": "",
+            "required": true
+        }
+    }
+}
